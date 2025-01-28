@@ -5,6 +5,8 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { userRequest } from './js/pixabay-api';
 import { renderMarkup } from './js/render-functions';
 import { gallery } from './js/render-functions';
+import xmarkSvg from '../assets/xmark.svg';
+import ahtungSvg from '../assets/achtung.svg';
 
 const searchForm = document.querySelector('.search-form');
 const loader = document.querySelector('.loader');
